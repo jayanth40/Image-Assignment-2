@@ -33,7 +33,7 @@ function Home(){
    
     return(<>
     <div className="App">
-    <h1 style={{fontFamily:"cursive",fontSize:"50px"}}>Snap Shorts</h1>
+    <h1 style={{fontFamily:"cursive",fontSize:"50px"}}>Snap Shots</h1>
         <div><input type="search" onChange={(e)=>{
             setInput(e.target.value)
         }} value={input} className="box" placeholder="Search..."/>
